@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Clickable Passport</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Passport</h2>
+    <form id="pass-port">
+      <div class="form-group">
+        <label for="location">A location:</label>
+        <input id="location" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="landmark">A landmark:</label>
+        <input id="landmark" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="season">Which season?</label>
+        <input id="season" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="notes">Notes:</label>
+        <input id="notes" class="form-control" type="text">
+      </div>
+        <button type="submit" class="btn btn-success">Submit Survey</button>
+      </div>
+    </form>
+    <p>Total Word Count: <span id="total-count"></span></p>
+   
+    <p>Selected Word Count: <span id="selected-count"></span></p>
+    <span id="bolded-passage"></span>
+  </div>
+</body>
+
+</html>
