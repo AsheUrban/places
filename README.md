@@ -31,7 +31,7 @@ Expected Output: ["Place"]
 
 ## Known Bugs
 
-* 
+* UI logic does not output results as intended.
 
 ## License
 
