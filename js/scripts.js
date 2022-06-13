@@ -31,6 +31,7 @@ $(document).ready(function() {
   const season = $("#season").val();
   const notes = $("#notes").val();
   // output results
-  })
-})
+  $("#output").text(PassPort(location, landmark, season, notes));
+  });
+});
 
